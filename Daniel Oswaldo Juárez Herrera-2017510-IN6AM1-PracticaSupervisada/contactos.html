@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="./css/contactos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+    
+    <ul>
+        <li><a class= "active" href="./contactos.html">Contactos</a></li>
+        <li><a href="./favoritos.html">Favoritos</a></li>
+        <li><a href="./perfil.html">Perfil</a></li>
+        <li><a href="./lista.html">To do List</a></li>
+        <li><a href="./index.html">Cerrar Sesión</a></li>
+    </ul>
+    </nav>
+
+        <section>
+            <table class="table">
+                <thead>
+                    <th>No.</th>
+                    <th>Foto</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Teléfono</th>
+                    <th>Detalle</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="No.">1</td>
+                        <td data-label="Foto"><img src="./img/per1.jpg"></td>
+                        <td data-label="Nombre">Joaquin</td>
+                        <td data-label="Apellido">Solis</td>
+                        <td data-label="Teléfono">56982354</td>
+                        <td data-label="Detalle">
+                            <form action="./detaper1.html">
+                                <button type="submit">Detalle</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="No.">2</td>
+                        <td data-label="Foto"><img src="./img/per2.jpg"></td>
+                        <td data-label="Nombre">Diego</td>
+                        <td data-label="Apellido">Chavaria</td>
+                        <td data-label="Teléfono">23659845</td>
+                        <td data-label="Detalle">
+                            <form action="./detaper2.html">
+                                <button type="submit">Detalle</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="No.">3</td>
+                        <td data-label="Foto"><img src="./img/per3.jpg"></td>
+                        <td data-label="Nombre">Edgar</td>
+                        <td data-label="Apellido">Mayorga</td>
+                        <td data-label="Teléfono">12326512</td>
+                        <td data-label="Detalle">
+                            <form action="./detaper3.html">
+                                <button type="submit">Detalle</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="No.">4</td>
+                        <td data-label="Foto"><img src="./img/per4.jpg"></td>
+                        <td data-label="Nombre">Allison</td>
+                        <td data-label="Apellido">Montaner</td>
+                        <td data-label="Teléfono">32659845</td>
+                        <td data-label="Detalle">
+                            <form action="./detaper4.html">
+                                <button type="submit">Detalle</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="No.">5</td>
+                        <td data-label="Foto"><img src="./img/per5.jpg"></td>
+                        <td data-label="Nombre">Elizabeth</td>
+                        <td data-label="Apellido">Muñoz</td>
+                        <td data-label="Teléfono">32984565</td>
+                        <td data-label="Detalle">
+                            <form action="./detaper5.html">
+                                <button type="submit">Detalle</button>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form action="./agregarcon.html">
+                <button type="submit">Agregar Contacto</button>
+
+
+        </section>
+
+</body>
+</html>
